@@ -1,0 +1,84 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 3px solid black;
+  background-image: url(https://img1.goodfon.ru/wallpaper/nbig/1/f5/firewatch-igra-minimalizm.jpg);
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #e2992a;
+  display: table;
+  margin: 20px auto;
+  color: rgb(224, 124, 9);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+body{
+  background: #e6990a;
+  background-image: -webkit-radial-gradient(cover, rgb(235, 111, 22),#f5eaeae3	);
+  background-image: -moz-radial-gradient(cover, #f5bb63, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #fa8500, #e2e6ec);
+  background-image: radial-gradient(cover, #e8eaec, #ff5e00)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(226, 126, 11);
+	border: 1px solid rgb(238, 164, 6);
+	box-shadow: 0 1px 0 rgba(255, 166, 0, 0.9) inset, 0 1px 3px rgba(255, 145, 0, 0.1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:rgb(241, 237, 235);
+	text-shadow: 0 1px rgb(238, 174, 144);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(255, 145, 0);
+  	border: 1px solid rgb(233, 114, 3);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #f0a505;
+} 
+
